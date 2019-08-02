@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+<Resource 
+	name="jdbc/kth_oracle" 
+	auth="Container"
+    type="javax.sql.DataSource" 
+    driverClassName="oracle.jdbc.driver.OracleDriver"
+    url="jdbc:oracle:thin:@127.0.0.1:1521:xe"
+    username="school" 
+    password="school" 
+    maxTotal="20" 
+    maxIdle="10"
+    maxWaitMillis="-1"/>
+</context>
